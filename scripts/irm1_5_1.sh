@@ -14,4 +14,4 @@ location^~ /SOGo/Microsoft-Server-ActiveSync{
 nginx -t
 nginx -s reload
 echo "$config['log_logins'] = true;" >> /opt/www/roundcubemail/config/config.inc.php
-#!/bin/sh
+echo "1.5.2" > /etc/iredmail-release
