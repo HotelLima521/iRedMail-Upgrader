@@ -2,7 +2,7 @@ irmCurrVer="1.5.2"
 release="$(cat /etc/iredmail-release)"
 src="$(./scripts/)"
 
-while [[ ${release} < ${irmCurrVer} ]]; do
+while [[ ${release} != ${irmCurrVer} ]]; do
 	if [[ ${release} == "1.5.1" ]]; then
 		bash ${src}irm1_5_1.sh
 	elif [[ ${release} == "1.5.0" ]]; then
@@ -89,4 +89,4 @@ while [[ ${release} < ${irmCurrVer} ]]; do
 		bash ${src}irm0_3_2.sh
 	else echo "Version too old"
 	fi
-end
+done
