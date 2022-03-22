@@ -1,4 +1,9 @@
-#!/bin/sh
+#!/usr/bin/env bash:
+
+cat << EOF
+### UPGRADING TO IRM 1.5.2 ###
+EOF
+
 sogo="/etc/nginx/templates/sogo.tmpl"
 sogosub="/etc/nginx/templates/sogo-subdomain.tmpl"
 echo "Omit parameters in...
