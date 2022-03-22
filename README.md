@@ -7,5 +7,5 @@ Focusing on Debian's edition for now, may split up into different support later 
 Just run:
 
 ```bash
-git clone https://github.com/HotelLima521/iRedMail-Upgrader; cd iRedMail-Upgrader; ./update.sh
+git clone https://github.com/HotelLima521/iRedMail-Upgrader; cd iRedMail-Upgrader; ./upgrade.sh
 ```
